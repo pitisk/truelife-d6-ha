@@ -1,0 +1,10 @@
+{
+  "domain": "truelife_d6",
+  "name": "TrueLife AIR Diffuser D6",
+  "version": "1.0.0",
+  "documentation": "https://github.com/piti/truelife-d6-ha",
+  "requirements": ["tinytuya>=1.18.0"],
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "codeowners": []
+}

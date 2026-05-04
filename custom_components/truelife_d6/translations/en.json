@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect TrueLife AIR Diffuser D6",
+        "description": "Enter the local network details for your diffuser.",
+        "data": {
+          "host": "IP Address",
+          "device_id": "Device ID",
+          "local_key": "Local Key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the device. Check the IP address and local key."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pripojiť TrueLife AIR Diffuser D6",
+        "description": "Zadajte sieťové údaje vášho difuzéra.",
+        "data": {
+          "host": "IP adresa",
+          "device_id": "ID zariadenia",
+          "local_key": "Lokálny kľúč"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nepodarilo sa pripojiť k zariadeniu. Skontrolujte IP adresu a lokálny kľúč."
+    },
+    "abort": {
+      "already_configured": "Toto zariadenie je už nakonfigurované."
+    }
+  }
+}
