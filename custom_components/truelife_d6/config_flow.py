@@ -48,8 +48,8 @@ class TrueLifeD6ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             step_id="user",
             data_schema=vol.Schema(
                 {
-                    vol.Required(CONF_HOST, default="10.20.101.164"): str,
-                    vol.Required(CONF_DEVICE_ID, default="bf339ed9db804ab0adaeco"): str,
+                    vol.Required(CONF_HOST): str,
+                    vol.Required(CONF_DEVICE_ID): str,
                     vol.Required(CONF_LOCAL_KEY): str,
                 }
             ),

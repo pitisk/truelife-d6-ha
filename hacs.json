@@ -1,6 +1,7 @@
 {
   "name": "TrueLife AIR Diffuser D6",
-  "description": "Local integration for TrueLife AIR Diffuser D6 (Tuya protocol v3.5)",
+  "description": "Local LAN integration for TrueLife AIR Diffuser D6 (Tuya protocol v3.5). Power, mist level, LED brightness and color mode — no cloud required.",
   "render_readme": false,
-  "homeassistant": "2024.1.0"
+  "homeassistant": "2024.1.0",
+  "iot_class": "local_polling"
 }
